@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "charset": "UTF-8",
+    "noEmit": false,
+    "noEmitOnError": true,
+    "target": "es5",
+    "outDir":"temp",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "filesGlob": [
+       "src/**/*.ts",
+       "!node_modules/**/*.ts"
+   ],
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "buildOnSave": false,
+  "compileOnSave": false
+}
