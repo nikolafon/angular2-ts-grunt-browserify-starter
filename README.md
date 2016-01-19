@@ -20,5 +20,5 @@ Starter uses live-server to serve static files with reload and mock-server to mo
   * grunt dev   - builds project and watches files for changes and incremental update of typescript, less, font and image files.
 
 # Start servers
-npm start - It will run live-reload server which will serve static files and watch for changes in the build folder for reload. I will
+npm start - It will run live-reload server which will serve static files and watch for changes inside the build folder for reload. It will
 also run mock-server which will mock JSON calls.
